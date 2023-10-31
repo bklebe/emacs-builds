@@ -6,7 +6,7 @@ on:
       git_ref:
         description: Emacs git ref to build
         required: true
-        default: "master"
+        default: "emacs-29.1"
       git_sha:
         description: Override Emacs git commit SHA to build
         required: false
