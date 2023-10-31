@@ -13,7 +13,7 @@ on:
       builder_ref:
         description: "Git ref to checkout of build-emacs-for-macos"
         required: true
-        default: "master"
+        default: "refactor-shared-library-bundler-logic"
       builder_args:
         description: Custom arguments passed to build script
         required: false
