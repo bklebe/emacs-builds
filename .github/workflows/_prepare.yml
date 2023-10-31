@@ -15,9 +15,8 @@ on:
 
 jobs:
   emacs-builder:
-    # Use oldest version of macOS to ensure emacs-bulder binary is compatible
-    # with later versions of macOS.
-    runs-on: macos-11
+    # Use M1 runner
+    runs-on: macos-13-xlarge
     steps:
       - name: Checkout build-emacs-for-macos repo
         uses: actions/checkout@v3
