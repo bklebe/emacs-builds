@@ -21,7 +21,7 @@ on:
       os:
         description: 'Runner OS ("macos-11", "macos-12", or "macos-latest")'
         required: true
-        default: "macos-11"
+        default: "macos-13-xlarge"
       test_build_name:
         description: "Test build name"
         required: false
