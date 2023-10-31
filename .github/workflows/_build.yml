@@ -135,7 +135,7 @@ jobs:
       - name: Checkout build-emacs-for-macos repo
         uses: actions/checkout@v2
         with:
-          repository: jimeh/build-emacs-for-macos
+          repository: bklebe/build-emacs-for-macos
           ref: ${{ needs.prepare.outputs.builder_sha }}
           path: builder
       - uses: ruby/setup-ruby@v1
