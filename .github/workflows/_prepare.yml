@@ -21,7 +21,7 @@ jobs:
       - name: Checkout build-emacs-for-macos repo
         uses: actions/checkout@v3
         with:
-          repository: jimeh/build-emacs-for-macos
+          repository: bklebe/build-emacs-for-macos
           ref: ${{ inputs.builder_ref }}
           path: builder
       - name: Store builder Git SHA
