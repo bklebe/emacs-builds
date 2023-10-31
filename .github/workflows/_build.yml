@@ -141,6 +141,8 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
+      - name: install ruby-macho
+        run: gem install ruby-macho
       - name: Update homebrew
         run: brew update
       - name: Fix system python breaking homebrew
